@@ -540,8 +540,8 @@ module.exports = function (webpackEnv) {
             //     name: "static/media/[name].[hash:8].[ext]",
             //   },
             // },
-            { test: /\.(?:ico|gif|png|jpg|jpeg)$/i, type: "asset/resource" },
-            { test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: "asset/inline" },
+            // { test: /\.(?:ico|gif|png|jpg|jpeg)$/i, type: "asset/resource" },
+            // { test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: "asset/inline" },
             // ** STOP ** Are you adding a new loader?
             // Make sure to add the new loader(s) before the "file" loader.
           ],
